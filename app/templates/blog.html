@@ -3,38 +3,4 @@
     {{wtf.quick_form(category_form)}}
     {{simplemde.load}}
 </div>
-
-<style type="text/css">
-    .blogs {
-        border-left: 6px solid #A11635;
-        background-color: lightgrey;
-        padding-bottom: 10px;
-    }
-
-    .comment {
-        color: #ffffff
-    }
-</style>
-
-<div class="card col-md-6">
-    <div class="blogs">
-        {% for item in blog %}
-        <p><span><img src="https://png.icons8.com/windows/50/1abc9c/administrator-male.png"></span>{{item.user}}</p>
-        <p><span><img src="https://png.icons8.com/dotty/50/EC1A61/tag-window.png"></span>{{item.pitch_title}}</p>
-        <p><span><img src="https://png.icons8.com/ios/50/F9254E/watch-filled.png"></span>{{item.posted}}</p>
-
-        <button class="btn btn-primary" type="button">
-            <a class="comment" href="/comment/blog"></a><span class="badge"><span class="glyphicon glyphicon-thumbs-up"></span></span>
-        </button>
-
-        <button class="btn btn-primary" type="button">
-            <a class="comment" href="/comment/blog"></a><span class="badge"><span class="glyphicon glyphicon-thumbs-down"></span></span>
-        </button>
-
-        <button class="btn btn-primary" type="button">
-            <a class="comment" href="/comment/blog">Comment </a><span class="badge"><span class="glyphicon glyphicon-comment"></span></span>
-        </button>
-        {% endfor%}
-    </div>
-</div>
-{% for item in comment %} {{item.comment_title}} {% endfor %} {% endblock %}
+{% endblock %}

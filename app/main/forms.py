@@ -5,6 +5,7 @@ from wtforms.validators import Required
 
 class BlogForm(FlaskForm):
     pitch_title=TextAreaField('Write a blog title')
+    blog_title = TextAreaField('Title')
     submit = SubmitField('Post')
 
 class UpdateProfile(FlaskForm):

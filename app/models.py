@@ -40,6 +40,7 @@ class Blog(db.Model):
 
     id = db.Column(db.Integer,primary_key = True)
     pitch_id = db.Column(db.Integer)
+    blog_title = db.Column(db.String)
     pitch_title = db.Column(db.String)
     image_path = db.Column(db.String)
     pitch_review = db.Column(db.String)
