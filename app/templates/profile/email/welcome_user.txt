@@ -1,0 +1,3 @@
+Hello {{user.username}}
+Welcome to Blog Pool.
+We have just seen that you signed up for your Blog Pool account.Have fun pitching your ideas.
