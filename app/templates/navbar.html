@@ -17,7 +17,6 @@
         <ul class="nav navbar-nav navbar-right">
 
             {% if current_user.is_authenticated %}
-            <li><img src="{{url_for('static',filename=current_user.profile_pic_path)}}" alt="" class="img-thumbnail" style="height:9vh; width:4.2vw; border-radius: 50%;"></li>
             <li style="color:white;padding:15px;">{{current_user.username}}</li>
             <li><a href="{{url_for('main.profile',uname=current_user.username)}}">profile</a></li>
             <li><a href="{{url_for('auth.logout')}}">Sign out</a></li>
