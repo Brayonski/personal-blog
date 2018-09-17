@@ -4,7 +4,7 @@ Blog
 - - - -
 Author: [Brian Mutai](https://github.com/brayonski)
 ## Description
-[Blog](https://github.com/Brayonski/pitching) This is website that helps users to post blogs according to their likes e.g in blog,science,entertainment or sports. 
+[Blog](https://my-one-blog.herokuapp.com/) This is website that helps users to post blogs according to their likes e.g in blog,science,entertainment or sports. 
 
 ------------------------------------------------------------------------
 
@@ -35,7 +35,7 @@ This project was created on a debian linux platform but should work on other uni
 
 ### Cloning the repository
 ```bash
-git clone https://github.com/Brayonski/pitching && cd pitching
+git clone https://github.com/Brayonski/personal-blog && personal-blog 
 ```
 
 ### Creating a virtual environment
@@ -118,7 +118,7 @@ optional arguments:
 
 ## Contributing
 
-- Git clone [https://github.com/Brayonski/pitching]
+- Git clone [https://github.com/Brayonski/personal-blog]
 - Write your tests on `tests/`
 - If everything is OK. push your changes and make a pull request. ;)
 
