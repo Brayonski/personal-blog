@@ -1,1 +1,1 @@
-SECRET_KEY = 'kiprotichmutai'
+SECRET_KEY = 'brayonski3341'
