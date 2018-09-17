@@ -4,23 +4,23 @@ Blog
 - - - -
 Author: [Brian Mutai](https://github.com/brayonski)
 ## Description
-[Blog](https://github.com/Brayonski/pitching) This is website that helps users to post pitches according to their likes e.g in blog,science,entertainment or sports. 
+[Blog](https://github.com/Brayonski/pitching) This is website that helps users to post blogs according to their likes e.g in blog,science,entertainment or sports. 
 
 ------------------------------------------------------------------------
 
 ## User 
 
-1. User will see pitches from other users and comment on them
-2. Users are able to add pitches
-3. Categories of pitches are stated
-4. Users can view pitches according to categories independently e.g from blog,science,entertainment and sports.
+1. User will see blogs from other users and comment on them
+2. Users are able to add blogs
+3. Categories of blogs are stated
+4. Users can view blogs according to categories independently e.g from blog,science,entertainment and sports.
 
 ## Features
 
-+ [x] List various pitches.
-+ [x] List pitches from the selecte categories
++ [x] List various blogs.
++ [x] List blogs from the selecte categories
 + [x] Redirect user to the actual article
-+ [x] Categorize pitches
++ [x] Categorize blogs
 + [ ] comment on blog posted
 + [ ] show comment of blog according to blog id
 + [ ] Liking and Disliking comments from people 

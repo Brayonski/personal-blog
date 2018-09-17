@@ -1,0 +1,10 @@
+{% extends 'base.html'%} {% import "bootstrap/wtf.html" as wtf %} {% block content %}
+<div class="container-fluid">
+    {{wtf.quick_form(comment_form_blog)}}
+</div>
+
+{% for item in comment %}
+    {{item.blog_title}}
+{% endfor %}
+
+{% endblock %}

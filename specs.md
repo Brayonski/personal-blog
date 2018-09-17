@@ -1,5 +1,5 @@
 # <p align="center">Blog
-One minute blog is an interactive app whereby users can share on their creative pitches.
+One minute blog is an interactive app whereby users can share on their creative blogs.
 
 Last modified: **15th September 2018**
 
