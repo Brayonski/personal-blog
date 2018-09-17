@@ -5,7 +5,7 @@ import os
 class Config:
 
     SECRET_KEY = os.environ.get('SECRET-KEY')
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://root:mutaikips@localhost/blog'
+    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://root:mutaikips@localhost/blog'
     UPLOADED_PHOTOS_DEST ='app/static/photos'
 
 
@@ -18,7 +18,7 @@ class Config:
 
 class ProdConfig(Config):
     SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
-    pass    
+    # pass    
 
 class TestConfig(Config):
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://root:mutaikips@localhost/blog'
