@@ -1,4 +1,4 @@
-from flask import render_template,request,redirect,url_for,abort
+from flask import render_template,request,redirect,url_for,abort,flash
 from . import main
 from flask_login import login_required, current_user
 from .. import auth
@@ -54,6 +54,19 @@ def add_category_blog():
         db.session.commit()    
         return redirect(url_for('.index'))
     return render_template('blog.html',category_form = form,blog=blog)
+
+@main.route('/posted/blogs',methods = ['GET','POST'])
+@login_required
+def posted_blogs():
+    form = BlogForm()
+    blog = Blog.query.filter_by().all()
+    if form.validate_on_submit():
+        blog = Blog(pitch_title=form.pitch_title.data,user=current_user)
+        db.session.add(blog)
+        db.session.commit()
+        flash('It ahs been posted to posted blogs')    
+        return redirect(url_for('.index'))
+    return render_template('posted_blogs.html',category_form = form,blog=blog)
 
 @main.route('/comment/blog',methods = ['GET','POST'])
 @login_required
