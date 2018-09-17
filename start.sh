@@ -1,6 +1,6 @@
 export SECRET_KEY='mutaikips'
 export MAIL_USERNAME='kiprotichbrian8@gmail.com'
 export MAIL_PASSWORD='mutaikips'
-export DATABASE_URL='postgres://xyvvuxczpwhzah:1a87f72cc8b15c99d3c3dac1280af55d9ffbe2da222eb3b63260759432280b92@ec2-174-129-32-37.compute-1.amazonaws.com:5432/df5hl0e4alv5c8'
+export DATABASE_URL='postgres://pxttijodehmpha:88be577677bca1aad1ba87b5a1cc5512cbfa97d7e4647ceb0ac6c6d7d13c6b66@ec2-54-225-241-25.compute-1.amazonaws.com:5432/deh4pq83akembb'
 
 python3.6 manage.py server
